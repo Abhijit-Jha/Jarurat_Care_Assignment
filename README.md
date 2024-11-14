@@ -37,7 +37,7 @@ This is a simple API created using Node.js, Express, and MongoDB to manage a lis
    - Either use MongoDB Atlas (https://www.mongodb.com/cloud/atlas) by creating a free cluster and obtaining the connection URL.
    - Or use Docker to run MongoDB locally. You can follow this guide to set it up: https://hub.docker.com/_/mongo
 
-4. **Add the DB URL** in the `.env` file under the variable `MONGODB_URI`. Check .env.example for reference
+4. **Add the DB URL** in the `.env` file under the variable `MONGODB_URI`. Check ``.env.example`` for reference
 
 5. **Run the application**:
 
