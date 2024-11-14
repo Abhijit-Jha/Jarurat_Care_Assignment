@@ -42,7 +42,7 @@ This is a simple API created using Node.js, Express, and MongoDB to manage a lis
 5. **Run the application**:
 
    ```bash
-   node ./route.ts
+   node ./route.js
    ```
 
 ## Endpoints
