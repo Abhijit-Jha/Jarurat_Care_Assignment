@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const { v4: uuidv4 } = require("uuid");
-mongoose.connect(process.env.DB_URL || "mongodb+srv://abhijit:cFM1StcMtUUdBgHv@abhijitjha.abiny0p.mongodb.net/healthService").then("Connected to MongoDB").catch("Error while connecting")
+mongoose.connect(process.env.MONGODB_URL).then("Connected to MongoDB").catch("Error while connecting")
 
 const healthSchema = new mongoose.Schema({
     serviceId : { type: String, required: true, unique: true, default: uuidv4 },
